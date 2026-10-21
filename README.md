@@ -2,6 +2,8 @@
 
 Simulador de pedidos de una pastelería. Se puede pedir tortas con gluten y sin gluten, y otras opciones de pastelería. Cada tipo de pedido tiene su propio apartado. El pedido se completa eligiendo fecha, retiro o envío y datos de contacto.
 
+[Ver sitio publicado](https://micalorenzo.github.io/Proyecto-Final-JS-Pasteleria-Amelia/)
+
 Contacto: Micaela Lorenzo, teléfono 2284 58-1294.
 
 ## Cómo probarlo
