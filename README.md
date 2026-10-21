@@ -1,6 +1,10 @@
 # Pastelería Amelia
 
-Simulador de pedidos de una pastelería. Se puede pedir tortas con gluten y sin gluten, y otras opciones de pastelería. Cada tipo de pedido tiene su propio apartado. El pedido se completa eligiendo fecha, retiro o envío y datos de contacto.
+Creé un simulador de pedidos para mi propia pastelería, la idea es poder realizar pedidos completamente personalizados desde el e-commerce. Hay dos secciones principales, con y sin gluten, tanto en tortas como en “otras opciones”, en donde tenés botones para elegir una u otra; en cuanto a las tortas, una vez elegida la opción con o sin gluten, te deriva a la personalización: forma, sabor de masa, relleno, cantidad de porciones y decoración. Se confirma el pedido cuando el cliente ingresa los datos y elige si quiere retirar en el local o si prefiere que sea un envío a domicilio, el cual también tiene un cargo extra.
+
+Para la fecha de entrega hay un calendario que respeta ciertas reglas: hay que pedir con al menos 7 días de anticipación, o se cobra un recargo si es antes, y los domingos no se entrega. Además, los pedidos quedan guardados, así que el cliente puede volver a verlos después, modificarlos o cancelarlos.
+
+El enfoque principal fue que sea intuitivo y fácil para el cliente utilizarlo, reducir el tiempo de atención al cliente, aunque te da mi teléfono para poder contactarme en caso de ser necesario, y que en todo momento el cliente pueda saber los costos de cada producto.
 
 link de GitHub Pages: https://micalorenzo.github.io/Proyecto-Final-JS-Pasteleria-Amelia/
 
