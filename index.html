@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pastelería Amelia | Tortas con y sin gluten</title>
+  <meta name="description" content="Pedí tu torta con o sin gluten en Pastelería Amelia. Elegí porciones, forma, masa, relleno, decoración y fecha de entrega.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="salto-contenido" href="#contenido">Ir al contenido</a>
+
+  <header class="cabecera">
+    <a class="cabecera__marca" href="#/" aria-label="Pastelería Amelia, ir al inicio">
+      <img src="assets/img/logo-header.png" alt="" width="40" height="40">
+      <span>Pastelería Amelia</span>
+    </a>
+    <nav class="cabecera__navegacion" id="navegacionPrincipal" aria-label="Principal">
+      <a href="#/tortas/con-gluten" data-ruta="/tortas/con-gluten">Tortas con gluten</a>
+      <a href="#/tortas/sin-gluten" data-ruta="/tortas/sin-gluten">Tortas sin gluten</a>
+      <a href="#/otras-opciones" data-ruta="/otras-opciones">Otras opciones</a>
+      <a href="#/pedido" data-ruta="/pedido">
+        Mi pedido
+        <span class="insignia" id="contadorPedido" aria-live="polite">0</span>
+      </a>
+      <a href="#/mis-pedidos" data-ruta="/mis-pedidos">Mis pedidos</a>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1"></main>
+
+  <footer class="pie">
+    <div class="pie__contenido">
+      <div>
+        <p class="pie__titulo">Pastelería Amelia</p>
+        <p>Entregamos de lunes a sábado. El último horario de entrega es el sábado a las 20:00 y los domingos descansamos.</p>
+      </div>
+      <div>
+        <p class="pie__titulo">Contacto</p>
+        <p>Micaela Lorenzo</p>
+        <p>
+          Teléfono:
+          <a href="tel:+542284581294">2284 58-1294</a>
+        </p>
+      </div>
+    </div>
+    <p class="pie__nota">Simulador de pedidos: tus pedidos se guardan solo en este navegador.</p>
+  </footer>
+
+  <div class="pantalla-carga" id="pantallaCarga" role="status" aria-live="polite">
+    <div class="pantalla-carga__rueda" aria-hidden="true"></div>
+    <p>Preparando la vidriera</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.js" defer></script>
+  <script src="js/datos.js" defer></script>
+  <script src="js/calculos.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

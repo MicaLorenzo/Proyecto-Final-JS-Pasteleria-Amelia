@@ -1,0 +1,132 @@
+{
+  "zonasEnvio": [
+    {
+      "id": "retiro",
+      "nombre": "Retiro en el local",
+      "descripcion": "Sin cargo. Retirás tu pedido en el local.",
+      "costo": 0
+    },
+    {
+      "id": "zona-1",
+      "nombre": "Envío zona 1: centro",
+      "descripcion": "Entrega en el centro de la ciudad.",
+      "costo": 4000
+    },
+    {
+      "id": "zona-2",
+      "nombre": "Envío zona 2: barrios",
+      "descripcion": "Entrega en barrios alejados del centro.",
+      "costo": 6500
+    },
+    {
+      "id": "zona-3",
+      "nombre": "Envío zona 3: alrededores",
+      "descripcion": "Entrega en localidades cercanas.",
+      "costo": 10000
+    }
+  ],
+  "horarios": [
+    {
+      "diaSemana": 1,
+      "franjas": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "diaSemana": 2,
+      "franjas": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "diaSemana": 3,
+      "franjas": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "diaSemana": 4,
+      "franjas": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "diaSemana": 5,
+      "franjas": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    },
+    {
+      "diaSemana": 6,
+      "franjas": [
+        "09:00",
+        "10:00",
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00",
+        "16:00",
+        "17:00",
+        "18:00",
+        "19:00",
+        "20:00"
+      ]
+    }
+  ]
+}

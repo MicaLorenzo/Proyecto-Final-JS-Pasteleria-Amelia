@@ -1,0 +1,18 @@
+{
+  "negocio": {
+    "nombre": "Pastelería Amelia",
+    "responsable": "Micaela Lorenzo",
+    "telefono": "2284581294"
+  },
+  "reglas": {
+    "diasAnticipacionNormal": 7,
+    "diasAnticipacionMinima": 1,
+    "recargoUrgentePorcentaje": 40,
+    "recargoSinGlutenPorcentaje": 30,
+    "diasDescanso": [
+      0
+    ],
+    "maximoFigurasPorTipo": 3,
+    "porcionesMinimasPorFigura": 6
+  }
+}

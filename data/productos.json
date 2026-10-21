@@ -1,0 +1,66 @@
+[
+  {
+    "id": "alfajores-maicena",
+    "nombre": "Alfajores de maicena",
+    "descripcion": "Tapas que se deshacen, dulce de leche y coco rallado.",
+    "unidad": "Caja x 12",
+    "precio": 17000,
+    "imagen": "assets/img/productos/alfajores-maicena.jpg"
+  },
+  {
+    "id": "lemon-pie",
+    "nombre": "Lemon pie",
+    "descripcion": "Base crocante, crema de limón y merengue flameado.",
+    "unidad": "Entero, 8 porciones",
+    "precio": 26000,
+    "imagen": "assets/img/productos/lemon-pie.jpg"
+  },
+  {
+    "id": "cheesecake",
+    "nombre": "Cheesecake de frutos rojos",
+    "descripcion": "Cremoso, con salsa casera de frutos rojos.",
+    "unidad": "Entero, 8 porciones",
+    "precio": 34000,
+    "imagen": "assets/img/productos/cheesecake.jpg"
+  },
+  {
+    "id": "brownies",
+    "nombre": "Brownies con nuez",
+    "descripcion": "Húmedos, intensos y con trozos de nuez.",
+    "unidad": "Caja x 9",
+    "precio": 19000,
+    "imagen": "assets/img/productos/brownies.jpg"
+  },
+  {
+    "id": "cupcakes",
+    "nombre": "Cupcakes decorados",
+    "descripcion": "Bizcochuelo esponjoso con buttercream de colores.",
+    "unidad": "Caja x 6",
+    "precio": 18000,
+    "imagen": "assets/img/productos/cupcakes.jpg"
+  },
+  {
+    "id": "cookies",
+    "nombre": "Cookies con chips",
+    "descripcion": "Crocantes por fuera y blandas por dentro.",
+    "unidad": "Caja x 8",
+    "precio": 15000,
+    "imagen": "assets/img/productos/cookies.jpg"
+  },
+  {
+    "id": "chocotorta",
+    "nombre": "Chocotorta",
+    "descripcion": "La clásica de dulce de leche, crema y chocolate.",
+    "unidad": "Bandeja 30 x 20 cm, 20 porciones",
+    "precio": 58000,
+    "imagen": "assets/img/productos/chocotorta.jpg"
+  },
+  {
+    "id": "tarta-frutillas",
+    "nombre": "Tarta de frutillas",
+    "descripcion": "Masa sablée, crema pastelera y frutillas frescas.",
+    "unidad": "Entera, 10 porciones",
+    "precio": 32000,
+    "imagen": "assets/img/productos/tarta-frutillas.jpg"
+  }
+]

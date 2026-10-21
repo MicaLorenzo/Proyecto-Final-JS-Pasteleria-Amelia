@@ -1,0 +1,310 @@
+{
+  "precios": {
+    "armadoBase": 12000,
+    "porPorcion": 2400
+  },
+  "porciones": [
+    {
+      "cantidad": 10,
+      "diametroCm": 18,
+      "rectangularCm": "20 x 15"
+    },
+    {
+      "cantidad": 15,
+      "diametroCm": 20,
+      "rectangularCm": "25 x 18"
+    },
+    {
+      "cantidad": 20,
+      "diametroCm": 22,
+      "rectangularCm": "28 x 20"
+    },
+    {
+      "cantidad": 25,
+      "diametroCm": 24,
+      "rectangularCm": "30 x 22"
+    },
+    {
+      "cantidad": 30,
+      "diametroCm": 26,
+      "rectangularCm": "32 x 25"
+    },
+    {
+      "cantidad": 40,
+      "diametroCm": 30,
+      "rectangularCm": "35 x 30"
+    },
+    {
+      "cantidad": 50,
+      "diametroCm": 34,
+      "rectangularCm": "40 x 30"
+    }
+  ],
+  "tamanosFigura": [
+    {
+      "porcionesHasta": 6,
+      "alturaCm": 22
+    },
+    {
+      "porcionesHasta": 8,
+      "alturaCm": 26
+    },
+    {
+      "porcionesHasta": 10,
+      "alturaCm": 30
+    },
+    {
+      "porcionesHasta": 12,
+      "alturaCm": 32
+    },
+    {
+      "porcionesHasta": 15,
+      "alturaCm": 35
+    },
+    {
+      "porcionesHasta": 20,
+      "alturaCm": 40
+    },
+    {
+      "porcionesHasta": 50,
+      "alturaCm": 45
+    }
+  ],
+  "figuras": {
+    "numeros": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "letras": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L",
+      "M",
+      "N",
+      "Ñ",
+      "O",
+      "P",
+      "Q",
+      "R",
+      "S",
+      "T",
+      "U",
+      "V",
+      "W",
+      "X",
+      "Y",
+      "Z"
+    ]
+  },
+  "formatos": [
+    {
+      "id": "redonda",
+      "nombre": "Redonda",
+      "descripcion": "El formato de siempre, parejo y fácil de porcionar.",
+      "extra": 0,
+      "icono": "assets/img/iconos/redonda.svg"
+    },
+    {
+      "id": "rectangular",
+      "nombre": "Rectangular",
+      "descripcion": "Ideal para compartir entre muchas personas.",
+      "extra": 3500,
+      "icono": "assets/img/iconos/rectangular.svg"
+    },
+    {
+      "id": "especial",
+      "nombre": "Forma especial",
+      "descripcion": "Corazón, estrella, luna, sol, número o letra.",
+      "extra": 0,
+      "icono": "assets/img/iconos/corazon.svg"
+    }
+  ],
+  "formasEspeciales": [
+    {
+      "id": "corazon",
+      "nombre": "Corazón",
+      "tipo": "unica",
+      "extra": 9000,
+      "icono": "assets/img/iconos/corazon.svg"
+    },
+    {
+      "id": "estrella",
+      "nombre": "Estrella",
+      "tipo": "unica",
+      "extra": 9000,
+      "icono": "assets/img/iconos/estrella.svg"
+    },
+    {
+      "id": "luna",
+      "nombre": "Luna",
+      "tipo": "unica",
+      "extra": 10000,
+      "icono": "assets/img/iconos/luna.svg"
+    },
+    {
+      "id": "sol",
+      "nombre": "Sol",
+      "tipo": "unica",
+      "extra": 10000,
+      "icono": "assets/img/iconos/sol.svg"
+    },
+    {
+      "id": "figuras",
+      "nombre": "Número o letra",
+      "tipo": "figuras",
+      "extraPorFigura": 8500,
+      "icono": "assets/img/iconos/figuras.svg"
+    }
+  ],
+  "decoraciones": [
+    {
+      "id": "clasica",
+      "nombre": "Clásica",
+      "descripcion": "Cobertura de crema y terminación prolija con borde simple.",
+      "precioFijo": 0,
+      "precioPorPorcion": 0,
+      "imagen": "assets/img/decoraciones/clasica.jpg"
+    },
+    {
+      "id": "buttercream-flores",
+      "nombre": "Buttercream con flores",
+      "descripcion": "Crema de manteca en tonos pastel con flores manuales.",
+      "precioFijo": 6000,
+      "precioPorPorcion": 500,
+      "imagen": "assets/img/decoraciones/buttercream-flores.jpg"
+    },
+    {
+      "id": "drip",
+      "nombre": "Drip de chocolate",
+      "descripcion": "Chocolate que cae por los costados, con golosinas y frutas.",
+      "precioFijo": 5000,
+      "precioPorPorcion": 400,
+      "imagen": "assets/img/decoraciones/drip.jpg"
+    },
+    {
+      "id": "naked",
+      "nombre": "Naked cake con frutas",
+      "descripcion": "Sin cobertura, con frutas frescas y flores comestibles.",
+      "precioFijo": 4000,
+      "precioPorPorcion": 350,
+      "imagen": "assets/img/decoraciones/naked.jpg"
+    },
+    {
+      "id": "fondant",
+      "nombre": "Fondant temática",
+      "descripcion": "Un tema o personaje modelado en fondant a tu elección.",
+      "precioFijo": 12000,
+      "precioPorPorcion": 900,
+      "imagen": "assets/img/decoraciones/fondant.jpg"
+    },
+    {
+      "id": "topper",
+      "nombre": "Con topper y mensaje",
+      "descripcion": "Cartel personalizado con un nombre o una frase.",
+      "precioFijo": 4500,
+      "precioPorPorcion": 0,
+      "imagen": "assets/img/decoraciones/topper.jpg"
+    }
+  ],
+  "masas": [
+    {
+      "id": "chocolate",
+      "nombre": "Chocolate",
+      "extraPorPorcion": 0
+    },
+    {
+      "id": "vainilla",
+      "nombre": "Vainilla",
+      "extraPorPorcion": 0
+    },
+    {
+      "id": "naranja",
+      "nombre": "Naranja",
+      "extraPorPorcion": 0
+    },
+    {
+      "id": "limon",
+      "nombre": "Limón",
+      "extraPorPorcion": 0
+    },
+    {
+      "id": "chips",
+      "nombre": "Chips de chocolate",
+      "extraPorPorcion": 200
+    }
+  ],
+  "rellenos": [
+    {
+      "id": "dulce-de-leche",
+      "nombre": "Dulce de leche",
+      "extraPorPorcion": 0,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "dulce-de-leche-merengue",
+      "nombre": "Dulce de leche con merengue",
+      "extraPorPorcion": 100,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "crema-oreo",
+      "nombre": "Crema Oreo",
+      "extraPorPorcion": 250,
+      "aptoSinGluten": false,
+      "motivoNoApto": "Las galletitas Oreo llevan trigo."
+    },
+    {
+      "id": "crema-bariloche",
+      "nombre": "Crema Bariloche",
+      "extraPorPorcion": 200,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "crema-bonobon",
+      "nombre": "Crema Bonobon",
+      "extraPorPorcion": 300,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "crema-frutilla",
+      "nombre": "Crema y frutilla",
+      "extraPorPorcion": 200,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "crema-durazno",
+      "nombre": "Crema y durazno",
+      "extraPorPorcion": 150,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "ganache-chocolate",
+      "nombre": "Ganache de chocolate",
+      "extraPorPorcion": 250,
+      "aptoSinGluten": true
+    },
+    {
+      "id": "pistachos",
+      "nombre": "Pistachos",
+      "extraPorPorcion": 600,
+      "aptoSinGluten": true
+    }
+  ]
+}
